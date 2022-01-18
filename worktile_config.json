@@ -225,13 +225,6 @@
             "groupid": "606ed1500ce2e6480364aded"
         },
         {
-            "pid": "61b1c7759da7731b13e8b4c5",
-            "pname": "功能点管理系统",
-            "kanbanid": "61b1c7759da7731b13e8b4c8",
-            "vid": "5ffba8890531a37a22e7fad2",
-            "groupid": "61b2e942792f963116e338b0"
-        },
-        {
             "pid": "61848e35bd37052b2a0396e1",
             "pname": "招标采购流程管理",
             "kanbanid": "61848e35bd37052b2a0396e4",
