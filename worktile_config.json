@@ -254,6 +254,18 @@
             "pname": "[敏捷]2022-网盘管理系统",
             "kanbanid": "61dd5bc469a5f22ac752ff67",
             "type": "mj"
-        }        
+        },
+        {
+            "pid": "61dd510369a5f22ac752f580",
+            "pname": "[敏捷]2022-股权管理系统",
+            "kanbanid": "61dd510469a5f22ac752f583",
+            "type": "mj"
+        },
+        {
+            "pid": "61e670c675cc65554e9c1b35",
+            "pname": "[敏捷]2022-数研院门禁管理系统",
+            "kanbanid": "61e670c775cc65554e9c1b38",
+            "type": "mj"
+        }          
     ]
 }
