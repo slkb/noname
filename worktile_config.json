@@ -249,6 +249,12 @@
             "pname": "[敏捷]2022-苏交控信息资源申请系统",
             "kanbanid": "61dff0abda2ab94f32f89ead",
             "type": "mj"
-        }      
+        },
+        {
+            "pid": "61dd5387b7560e0226a4a985",
+            "pname": "[敏捷]2022-会议管理系统",
+            "kanbanid": "61dd5387b7560e0226a4a988",
+            "type": "mj"
+        }       
     ]
 }
