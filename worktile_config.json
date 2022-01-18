@@ -272,6 +272,12 @@
             "pname": "[敏捷]2022-协同办公系统",
             "kanbanid": "61d6617bcc91f250b382b970",
             "type": "mj"
-        }          
+        },
+        {
+            "pid": "61dd5267b6ffb22aeee30b3d",
+            "pname": "[敏捷]2022-招标采购系统",
+            "kanbanid": "61dd5267b6ffb22aeee30b40",
+            "type": "mj"
+        }            
     ]
 }
