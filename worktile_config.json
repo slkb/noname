@@ -248,6 +248,12 @@
             "pname": "[敏捷]2022-会议管理系统",
             "kanbanid": "61dd5387b7560e0226a4a988",
             "type": "mj"
-        }       
+        },
+        {
+            "pid": "61dd5bc469a5f22ac752ff64",
+            "pname": "[敏捷]2022-网盘管理系统",
+            "kanbanid": "61dd5bc469a5f22ac752ff67",
+            "type": "mj"
+        }        
     ]
 }
