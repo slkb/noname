@@ -242,9 +242,13 @@
             "pid": "61de9c0a9fd789024ca495e6",
             "pname": "[敏捷]2022-功能点管理",
             "kanbanid": "61de9c0b9fd789024ca495e9",
-            "vid": "5ffba8890531a37a22e7fad2",
-            "groupid": "6184eb6f12db6415000aa33a",
             "type": "mj"
-        }        
+        },
+        {
+            "pid": "61dff0aada2ab94f32f89eaa",
+            "pname": "[敏捷]2022-苏交控信息资源申请系统",
+            "kanbanid": "61dff0abda2ab94f32f89ead",
+            "type": "mj"
+        }      
     ]
 }
