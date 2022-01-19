@@ -278,6 +278,12 @@
             "pname": "[敏捷]2022-招标采购系统",
             "kanbanid": "61dd5267b6ffb22aeee30b40",
             "type": "mj"
+        },
+        {
+            "pid": "61e7b2e06e782f1b94077273",
+            "pname": "[敏捷]2022-投资管理系统",
+            "kanbanid": "61e7b2e06e782f1b94077276",
+            "type": "mj"
         }            
     ]
 }
