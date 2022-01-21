@@ -284,6 +284,12 @@
             "pname": "[敏捷]2022-投资管理系统",
             "kanbanid": "61e7b2e06e782f1b94077276",
             "type": "mj"
-        }            
+        }  ,
+        {
+            "pid": "61e532c0b6ffb22aeee5dd40",
+            "pname": "[敏捷]2022-差旅费报销系统",
+            "kanbanid": "61e532c0b6ffb22aeee5dd43",
+            "type": "mj"
+        }          
     ]
 }
