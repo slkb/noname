@@ -89,6 +89,67 @@
         }
     ],
     "projects": [
+        
+        {
+            "pid": "61de9c0a9fd789024ca495e6",
+            "pname": "[敏捷]2022-功能点管理",
+            "kanbanid": "61de9c0b9fd789024ca495e9",
+            "type": "mj"
+        },
+        {
+            "pid": "61dff0aada2ab94f32f89eaa",
+            "pname": "[敏捷]2022-苏交控信息资源申请系统",
+            "kanbanid": "61dff0abda2ab94f32f89ead",
+            "type": "mj"
+        },
+        {
+            "pid": "61dd5387b7560e0226a4a985",
+            "pname": "[敏捷]2022-会议管理系统",
+            "kanbanid": "61dd5387b7560e0226a4a988",
+            "type": "mj"
+        },
+        {
+            "pid": "61dd5bc469a5f22ac752ff64",
+            "pname": "[敏捷]2022-网盘管理系统",
+            "kanbanid": "61dd5bc469a5f22ac752ff67",
+            "type": "mj"
+        },
+        {
+            "pid": "61dd510369a5f22ac752f580",
+            "pname": "[敏捷]2022-股权管理系统",
+            "kanbanid": "61dd510469a5f22ac752f583",
+            "type": "mj"
+        },
+        {
+            "pid": "61e670c675cc65554e9c1b35",
+            "pname": "[敏捷]2022-数研院门禁管理系统",
+            "kanbanid": "61e670c775cc65554e9c1b38",
+            "type": "mj"
+        },
+        {
+            "pid": "61d6617bcc91f250b382b96d",
+            "pname": "[敏捷]2022-协同办公系统",
+            "kanbanid": "61d6617bcc91f250b382b970",
+            "type": "mj"
+        },
+        {
+            "pid": "61dd5267b6ffb22aeee30b3d",
+            "pname": "[敏捷]2022-招标采购系统",
+            "kanbanid": "61dd5267b6ffb22aeee30b40",
+            "type": "mj"
+        },
+        {
+            "pid": "61e7b2e06e782f1b94077273",
+            "pname": "[敏捷]2022-投资管理系统",
+            "kanbanid": "61e7b2e06e782f1b94077276",
+            "type": "mj"
+        }  ,
+        {
+            "pid": "61e532c0b6ffb22aeee5dd40",
+            "pname": "[敏捷]2022-差旅费报销系统",
+            "kanbanid": "61e532c0b6ffb22aeee5dd43",
+            "type": "mj"
+        } ,
         {
             "pid": "6130b22eada58e269813ab09",
             "pname": "江苏快鹿防撞车系统-20210629WHK0633",
@@ -232,66 +293,6 @@
             "kanbanid": "61848e35bd37052b2a0396e4",
             "vid": "5ffba8890531a37a22e7fad2",
             "groupid": "6184eb6f12db6415000aa33a"
-        },
-        {
-            "pid": "61de9c0a9fd789024ca495e6",
-            "pname": "[敏捷]2022-功能点管理",
-            "kanbanid": "61de9c0b9fd789024ca495e9",
-            "type": "mj"
-        },
-        {
-            "pid": "61dff0aada2ab94f32f89eaa",
-            "pname": "[敏捷]2022-苏交控信息资源申请系统",
-            "kanbanid": "61dff0abda2ab94f32f89ead",
-            "type": "mj"
-        },
-        {
-            "pid": "61dd5387b7560e0226a4a985",
-            "pname": "[敏捷]2022-会议管理系统",
-            "kanbanid": "61dd5387b7560e0226a4a988",
-            "type": "mj"
-        },
-        {
-            "pid": "61dd5bc469a5f22ac752ff64",
-            "pname": "[敏捷]2022-网盘管理系统",
-            "kanbanid": "61dd5bc469a5f22ac752ff67",
-            "type": "mj"
-        },
-        {
-            "pid": "61dd510369a5f22ac752f580",
-            "pname": "[敏捷]2022-股权管理系统",
-            "kanbanid": "61dd510469a5f22ac752f583",
-            "type": "mj"
-        },
-        {
-            "pid": "61e670c675cc65554e9c1b35",
-            "pname": "[敏捷]2022-数研院门禁管理系统",
-            "kanbanid": "61e670c775cc65554e9c1b38",
-            "type": "mj"
-        },
-        {
-            "pid": "61d6617bcc91f250b382b96d",
-            "pname": "[敏捷]2022-协同办公系统",
-            "kanbanid": "61d6617bcc91f250b382b970",
-            "type": "mj"
-        },
-        {
-            "pid": "61dd5267b6ffb22aeee30b3d",
-            "pname": "[敏捷]2022-招标采购系统",
-            "kanbanid": "61dd5267b6ffb22aeee30b40",
-            "type": "mj"
-        },
-        {
-            "pid": "61e7b2e06e782f1b94077273",
-            "pname": "[敏捷]2022-投资管理系统",
-            "kanbanid": "61e7b2e06e782f1b94077276",
-            "type": "mj"
-        }  ,
-        {
-            "pid": "61e532c0b6ffb22aeee5dd40",
-            "pname": "[敏捷]2022-差旅费报销系统",
-            "kanbanid": "61e532c0b6ffb22aeee5dd43",
-            "type": "mj"
-        }          
+        }         
     ]
 }
