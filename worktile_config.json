@@ -158,6 +158,12 @@
             "type": "mj"
         } ,
         {
+            "pid": "61f10495c9ab360e056f64a1",
+            "pname": "[敏捷]2022-用印管理系统",
+            "kanbanid": "61f10495c9ab360e056f64a4",
+            "type": "mj"
+        } ,
+        {
             "pid": "6130b22eada58e269813ab09",
             "pname": "江苏快鹿防撞车系统-20210629WHK0633",
             "kanbanid": "6130b22fada58e269813ab0c",
