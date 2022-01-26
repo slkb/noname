@@ -4,7 +4,8 @@
     "person": [
         {
             "id": "38fa792007b54cc2a7446782aa942a3f",
-            "name": "陈帅"
+            "name": "陈帅",
+            "uid": "EE4CB410D4E44B0992FA6F8E5F339356"
         },
         {
             "id": "f8779be7ce314106a81ac46304159691",
@@ -87,7 +88,8 @@
         {
             "id": "7149800a7f8e4f5793429debeaf99958",
             "name": "武历浩",
-            "wb":"wb"
+            "wb":"wb",
+            "uid": "24689F98723A4B72A88BAF9971D50D2B"
         }
     ],
     "projects": [
