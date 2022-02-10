@@ -101,6 +101,12 @@
             "type": "mj"
         },
         {
+            "pid": "60a4e826bc1adc0991f794d8",
+            "pname": "科研项目管理",
+            "kanbanid": "60a4e826bc1adc0991f794db",
+            "groupid": "60a4e896998ffb17ce71176f"
+        },
+        {
             "pid": "61dff0aada2ab94f32f89eaa",
             "pname": "[敏捷]2022-苏交控信息资源申请系统",
             "kanbanid": "61dff0abda2ab94f32f89ead",
