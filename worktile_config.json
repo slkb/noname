@@ -101,6 +101,12 @@
             "type": "mj"
         },
         {
+            "pid": "621490e8a12de86ece24cf8f",
+            "pname": "[敏捷]2022-三重一大",
+            "kanbanid": "621490e9a12de86ece24cf94",
+            "type": "mj"
+        },
+        {
             "pid": "60a4e826bc1adc0991f794d8",
             "pname": "科研项目管理",
             "kanbanid": "60a4e826bc1adc0991f794db",
