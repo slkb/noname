@@ -101,6 +101,12 @@
             "type": "mj"
         },
         {
+            "pid": "61dd52e620dac801faf035dc",
+            "pname": "[敏捷]2022-固定资产管理",
+            "kanbanid": "61dd52e620dac801faf035df",
+            "type": "mj"
+        },
+        {
             "pid": "621490e8a12de86ece24cf8f",
             "pname": "[敏捷]2022-三重一大",
             "kanbanid": "621490e9a12de86ece24cf94",
