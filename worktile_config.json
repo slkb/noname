@@ -100,6 +100,12 @@
             "type": "mj"
         },
         {
+            "pid": "6225a01f4100f543a982cc53",
+            "pname": "[敏捷]2022-财务信息化",
+            "kanbanid": "6225a01f4100f543a982cc56",
+            "type": "mj"
+        },
+        {
             "pid": "61dd52e620dac801faf035dc",
             "pname": "[敏捷]2022-固定资产管理",
             "kanbanid": "61dd52e620dac801faf035df",
