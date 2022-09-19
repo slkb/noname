@@ -13,7 +13,16 @@
             ]
         }
     ],
-    "sites": [
+    "sites": [{
+            "key": "Lezhu_spider",
+            "name": "乐猪影视(SP)",
+            "api": "csp_Lezhu",
+            "type": 3,
+            "filterable": 1,
+            "quickSearch": 1,
+            "searchable": 1,
+            "ext": ""
+        },
         {
             "key": "360",
             "name": "360(SP)",
@@ -40,16 +49,6 @@
             "filterable": 1,
             "quickSearch": 1,
             "searchable": 1
-        },
-        {
-            "key": "Lezhu_spider",
-            "name": "乐猪影视(SP)",
-            "api": "csp_Lezhu",
-            "type": 3,
-            "filterable": 1,
-            "quickSearch": 1,
-            "searchable": 1,
-            "ext": ""
         },
         {
             "key": "T4",
