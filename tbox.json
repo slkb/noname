@@ -13,7 +13,17 @@
             ]
         }
     ],
-    "sites": [{
+    "sites": [
+        {
+            "key": "360",
+            "name": "360(SP)",
+            "type": 3,
+            "api": "csp_SP360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "Lezhu_spider",
             "name": "乐猪影视(SP)",
             "api": "csp_Lezhu",
@@ -24,14 +34,6 @@
             "ext": ""
         },
         {
-            "key": "360",
-            "name": "360(SP)",
-            "type": 3,
-            "api": "csp_SP360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },{
             "key": "在线之家",
             "name": "在线之家(SP)",
             "type": 3,
