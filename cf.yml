@@ -1,18 +1,7 @@
-mixed-port: 7890
-# socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 0.0.0.0:9090
-
-# 执行策略
 rules:
-  - DOMAIN-SUFFIX,chat.openai.com,ChatGPT
   - 'MATCH,出国'
 
-# 代理节点列表
 proxies:
-  # WireGuard 代理节点
   - name: cloudflare-warp+
     type: wireguard
     server: 162.159.192.158
@@ -20,32 +9,9 @@ proxies:
     ip: 172.16.0.2
     private-key: "AAUnYTS10NLVDhPtStukiZd1lGpl1/gOBdvhbfSQJEE="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-  - {"name":"台湾|02奈飞ChatGPT","type":"trojan","server":"gzdx0.156786.xyz","port":443,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"gzdx0.156786.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|02奈飞ChatGPT0","type":"trojan","server":"gzdx0.156786.xyz","port":13995,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"hkmax02.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|05|奈飞ChatGPT1","type":"trojan","server":"gzdx1.170203.xyz","port":49795,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03|奈飞ChatGPT3","type":"trojan","server":"gzdx3.170203.xyz","port":52938,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|06奈飞ChatGPT3","type":"trojan","server":"gzdx3.170203.xyz","port":43150,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"hkmax06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|04奈飞ChatGPT3","type":"trojan","server":"gzdx3.170203.xyz","port":443,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"gzdx3.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03奈飞ChatGPT0","type":"trojan","server":"gzdx0.156786.xyz","port":14515,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|06|奈飞ChatGPT0","type":"trojan","server":"gzdx0.156786.xyz","port":42490,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"hkmax06.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|03|奈飞ChatGPT2","type":"trojan","server":"gzdx2.170203.xyz","port":23136,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"sg0003.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|05奈飞ChatGPT0","type":"trojan","server":"gzdx0.156786.xyz","port":39702,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|03奈飞ChatGPT","type":"trojan","server":"gzdx1.170203.xyz","port":443,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"gzdx1.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|01奈飞ChatGPT","type":"trojan","server":"gzdx2.170203.xyz","port":34234,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"gzdx2.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡|03|奈飞ChatGPT3","type":"trojan","server":"gzdx3.170203.xyz","port":26419,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"sg0003.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|08|奈飞ChatGPT2","type":"trojan","server":"gzdx2.170203.xyz","port":64338,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"hkmax08.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港|08奈飞ChatGPT1","type":"trojan","server":"gzdx1.170203.xyz","port":12409,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"hkmax08.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  
 
-# 代理节点组
 proxy-groups:
   - name: 出国
     type: select
     proxies:
       - cloudflare-warp+
-  - name: ChatGPT
-    type: select
-    proxies:
-      - 台湾|02奈飞ChatGPT
-      - 香港|02奈飞ChatGPT0
-      - 美国|05|奈飞ChatGPT1
