@@ -40,6 +40,7 @@ proxies:
     ip: 172.17.3.2
     private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    udp: true
 
   - name: c4
     type: wireguard
