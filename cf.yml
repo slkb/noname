@@ -24,14 +24,17 @@ proxies:
     ip: 172.16.0.2
     private-key: "AAUnYTS10NLVDhPtStukiZd1lGpl1/gOBdvhbfSQJEE="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    mtu: 1280
+    udp: true
 
   - name: c2
     type: wireguard
-    server: 188.114.98.225
-    port: 2371
+    server: 162.159.195.56
+    port: 8319
     ip: 172.17.0.2
     private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    udp: true
 
   - name: c3
     type: wireguard
@@ -40,13 +43,38 @@ proxies:
     ip: 172.17.3.2
     private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    udp: true
 
   - name: c4
     type: wireguard
-    server: 162.159.192.137
-    port: 955
+    server: 188.114.96.139
+    port: 2371
     ip: 172.17.4.2
+    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    udp: true
+
+  - name: c5
+    type: wireguard
+    server: 188.114.97.44
+    port: 5956
+    ip: 172.17.5.2
+    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+
+  - name: c6
+    type: wireguard
+    server: 188.114.96.51
+    port: 864
+    ip: 172.17.6.2
+    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    udp: true
+
+  - name: c7
+    type: wireguard
+    server: 188.114.98.60
+    port: 4198
+    ip: 172.17.7.2
     private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
 
@@ -54,9 +82,9 @@ proxies:
 
 
 proxy-groups:
-    - { name: 出国, type: select, proxies: ['自动选择','故障转移','cloudflare','c2','c3','c4','HK'] }
-    - { name: 自动选择, type: url-test, proxies: ['cloudflare','c2','c3','c4','HK'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['cloudflare','c2','c3','c4','HK'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 出国, type: select, proxies: ['自动选择','故障转移','cloudflare','c2','c3','c4','c5','c6','c7','HK'] }
+    - { name: 自动选择, type: url-test, proxies: ['cloudflare','c2','c3','c4','c5','c6','c7','HK'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['cloudflare','c2','c3','c4','c5','c6','c7','HK'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 
 rules:
     - 'DOMAIN,ip6.me,DIRECT'
