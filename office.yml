@@ -355,8 +355,7 @@ proxy-groups:
           "香港|06奈飞ChatGPT3",
           "台湾|04奈飞ChatGPT3",
           "美国|03奈飞ChatGPT0",
-          "香港|06|奈飞ChatGPT0",
-          "cfcdn"
+          "香港|06|奈飞ChatGPT0"
         ],
       url: "http://www.gstatic.com/generate_204",
       interval: 7200,
