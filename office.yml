@@ -24,6 +24,42 @@ dns:
 
 proxies:
   - {
+      "name": "cf-cdn-yd-0",
+      "type": "vless",
+      "server": "172.67.200.197",
+      "port": 80,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-yd-1",
+      "type": "vless",
+      "server": "190.93.246.159",
+      "port": 80,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-2",
+      "type": "vless",
+      "server": "172.67.175.97",
+      "port": 80,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
       "name": "cf-cdn-1",
       "type": "vless",
       "server": "140.238.28.164",
@@ -327,19 +363,19 @@ proxy-groups:
   - {
       name: 出国,
       type: select,
-      proxies: ["自动选择", "故障转移", "cloudflare", "c2", "c3", "c4", "c5", "c6", "c7", "HK","cf-cdn-0","cf-cdn-1"]
+      proxies: ["自动选择", "故障转移","cf-cdn-2", "cloudflare", "c2", "c3", "c4", "c5", "c6", "c7", "HK", "cf-cdn-0", "cf-cdn-1"],
     }
   - {
       name: 自动选择,
       type: url-test,
-      proxies: ["cloudflare", "c2", "c3", "c4", "c5", "c6", "c7", "HK","cf-cdn-0","cf-cdn-1"],
+      proxies: ["cloudflare", "cf-cdn-2","c2", "c3", "c4", "c5", "c6", "c7", "HK", "cf-cdn-0", "cf-cdn-1"],
       url: "http://www.gstatic.com/generate_204",
       interval: 86400,
     }
   - {
       name: 故障转移,
       type: fallback,
-      proxies: ["cloudflare", "c2", "c3", "c4", "c5", "c6", "c7", "HK","cf-cdn-0","cf-cdn-1"],
+      proxies: ["cloudflare","cf-cdn-2", "c2", "c3", "c4", "c5", "c6", "c7", "HK", "cf-cdn-0", "cf-cdn-1"],
       url: "http://www.gstatic.com/generate_204",
       interval: 7200,
     }
@@ -355,7 +391,7 @@ proxy-groups:
           "香港|06奈飞ChatGPT3",
           "台湾|04奈飞ChatGPT3",
           "美国|03奈飞ChatGPT0",
-          "香港|06|奈飞ChatGPT0"
+          "香港|06|奈飞ChatGPT0",
         ],
       url: "http://www.gstatic.com/generate_204",
       interval: 7200,
