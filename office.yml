@@ -358,9 +358,11 @@ proxy-groups:
       - "cf-cdn-5"
       - "cloudflare"
       - "HK"
+      - "cfcdn"
   - name: 自动选择
     type: url-test
     proxies:
+      - "cfcdn"
       - "cf-cdn-0"
       - "cf-cdn-1"
       - "cf-cdn-2"
@@ -374,6 +376,7 @@ proxy-groups:
   - name: 故障转移
     type: fallback
     proxies:
+      - "cfcdn"
       - "cf-cdn-0"
       - "cf-cdn-1"
       - "cf-cdn-2"
