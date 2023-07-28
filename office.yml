@@ -50,7 +50,43 @@ proxies:
   - {
       "name": "cf-cdn-2",
       "type": "vless",
-      "server": "172.67.175.97",
+      "server": "172.64.205.107",
+      "port": 80,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-3",
+      "type": "vless",
+      "server": "172.67.14.110",
+      "port": 80,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-4",
+      "type": "vless",
+      "server": "172.67.253.123",
+      "port": 80,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-5",
+      "type": "vless",
+      "server": "172.64.160.58",
       "port": 80,
       "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
       "tls": false,
@@ -105,57 +141,6 @@ proxies:
     public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
     mtu: 1280
     udp: true
-
-  - name: c2
-    type: wireguard
-    server: 162.159.195.131
-    port: 928
-    ip: 172.17.0.2
-    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    udp: true
-
-  - name: c3
-    type: wireguard
-    server: 162.159.195.248
-    port: 1074
-    ip: 172.17.3.2
-    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-
-  - name: c4
-    type: wireguard
-    server: 162.159.192.205
-    port: 934
-    ip: 172.17.4.2
-    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    udp: true
-
-  - name: c5
-    type: wireguard
-    server: 162.159.192.178
-    port: 7152
-    ip: 172.17.5.2
-    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-
-  - name: c6
-    type: wireguard
-    server: 162.159.195.78
-    port: 1002
-    ip: 172.17.6.2
-    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    udp: true
-
-  - name: c7
-    type: wireguard
-    server: 162.159.195.44
-    port: 854
-    ip: 172.17.7.2
-    private-key: "2Lv8JMjrFQfGsQN80IDJeXNAFNO4FjPkAqpF1MiP5XA="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
 
   - {
       "name": "HK",
@@ -360,49 +345,64 @@ proxies:
     }
 
 proxy-groups:
-  - {
-      name: 出国,
-      type: select,
-      proxies: ["自动选择", "故障转移","cf-cdn-2", "cloudflare", "c2", "c3", "c4", "c5", "c6", "c7", "HK", "cf-cdn-0", "cf-cdn-1"],
-    }
-  - {
-      name: 自动选择,
-      type: url-test,
-      proxies: ["cloudflare", "cf-cdn-2","c2", "c3", "c4", "c5", "c6", "c7", "HK", "cf-cdn-0", "cf-cdn-1"],
-      url: "http://www.gstatic.com/generate_204",
-      interval: 86400,
-    }
-  - {
-      name: 故障转移,
-      type: fallback,
-      proxies: ["cloudflare","cf-cdn-2", "c2", "c3", "c4", "c5", "c6", "c7", "HK", "cf-cdn-0", "cf-cdn-1"],
-      url: "http://www.gstatic.com/generate_204",
-      interval: 7200,
-    }
-  - {
-      name: ChatGPT,
-      type: fallback,
-      proxies:
-        [
-          "台湾|02奈飞ChatGPT",
-          "香港|02奈飞ChatGPT0",
-          "美国|05|奈飞ChatGPT1",
-          "美国|03|奈飞ChatGPT3",
-          "香港|06奈飞ChatGPT3",
-          "台湾|04奈飞ChatGPT3",
-          "美国|03奈飞ChatGPT0",
-          "香港|06|奈飞ChatGPT0",
-        ],
-      url: "http://www.gstatic.com/generate_204",
-      interval: 7200,
-    }
+  - name: 出国
+    type: select
+    proxies:
+      - "自动选择"
+      - "故障转移"
+      - "cf-cdn-0"
+      - "cf-cdn-1"
+      - "cf-cdn-2"
+      - "cf-cdn-3"
+      - "cf-cdn-4"
+      - "cf-cdn-5"
+      - "cloudflare"
+      - "HK"
+  - name: 自动选择
+    type: url-test
+    proxies:
+      - "cf-cdn-0"
+      - "cf-cdn-1"
+      - "cf-cdn-2"
+      - "cf-cdn-3"
+      - "cf-cdn-4"
+      - "cf-cdn-5"
+      - "cloudflare"
+      - "HK"
+    url: http://www.gstatic.com/generate_204
+    interval: 86400
+  - name: 故障转移
+    type: fallback
+    proxies:
+      - "cf-cdn-0"
+      - "cf-cdn-1"
+      - "cf-cdn-2"
+      - "cf-cdn-3"
+      - "cf-cdn-4"
+      - "cf-cdn-5"
+      - "cloudflare"
+      - "HK"
+    url: http://www.gstatic.com/generate_204
+    interval: 7200
+  - name: ChatGPT
+    type: fallback
+    proxies:
+      - 台湾|02奈飞ChatGPT
+      - 香港|02奈飞ChatGPT0
+      - 美国|05|奈飞ChatGPT1
+      - 美国|03|奈飞ChatGPT3
+      - 香港|06奈飞ChatGPT3
+      - 台湾|04奈飞ChatGPT3
+      - 美国|03奈飞ChatGPT0
+      - 香港|06|奈飞ChatGPT0
+    url: http://www.gstatic.com/generate_204
+    interval: 7200
   - name: 高速云
     type: select
     proxies:
       - 11
-
 rules:
-  - IP-CIDR,10.0.0.0/8,高速云,no-resolve
+  - IP-CIDR,10.234.0.0/16,高速云,no-resolve
   - DOMAIN-SUFFIX,chat.openai.com,ChatGPT
   - "DOMAIN,ip6.me,DIRECT"
   - "DOMAIN,ip4.me,出国"
