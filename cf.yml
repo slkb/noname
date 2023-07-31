@@ -57,7 +57,7 @@ proxies:
   - {
       "name": "cf-cdn-1",
       "type": "vless",
-      "server": "140.238.28.164",
+      "server": "172.64.192.234",
       "port": 2052,
       "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
       "tls": false,
@@ -69,7 +69,55 @@ proxies:
   - {
       "name": "cf-cdn-0",
       "type": "vless",
-      "server": "146.56.44.19",
+      "server": "172.67.99.147",
+      "port": 2052,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-2",
+      "type": "vless",
+      "server": "172.67.80.217",
+      "port": 2052,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-3",
+      "type": "vless",
+      "server": "172.67.19.110",
+      "port": 2052,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-4",
+      "type": "vless",
+      "server": "172.67.112.223",
+      "port": 2052,
+      "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
+      "tls": false,
+      "servername": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev",
+      "network": "ws",
+      "ws-opts": { "path": "/?ed=2048", "headers": { "host": "hellomerry.ssc0nl-9iial87gr4mbw.workers.dev" } },
+      "client-fingerprint": "randomized",
+    }
+  - {
+      "name": "cf-cdn-5",
+      "type": "vless",
+      "server": "172.67.201.94",
       "port": 2052,
       "uuid": "04ce1b0c-d154-4b24-85d7-e788c8f83bb7",
       "tls": false,
@@ -80,18 +128,34 @@ proxies:
     }
 
 proxy-groups:
-  - { name: 出国, type: select, proxies: ["自动选择", "故障转移", "cloudflare", "cf-cdn-0", "cf-cdn-1", "cfcdn"] }
+  - {
+      name: 出国,
+      type: select,
+      proxies:
+        [
+          "自动选择",
+          "故障转移",
+          "cloudflare",
+          "cf-cdn-0",
+          "cf-cdn-1",
+          "cf-cdn-2",
+          "cf-cdn-3",
+          "cf-cdn-4",
+          "cf-cdn-5",
+          "cfcdn",
+        ],
+    }
   - {
       name: 自动选择,
       type: url-test,
-      proxies: ["cloudflare", "cf-cdn-0", "cf-cdn-1", "cfcdn"],
+      proxies: ["cloudflare", "cf-cdn-0", "cf-cdn-1", "cf-cdn-2", "cf-cdn-3", "cf-cdn-4", "cf-cdn-5", "cfcdn"],
       url: "http://www.gstatic.com/generate_204",
       interval: 86400,
     }
   - {
       name: 故障转移,
       type: fallback,
-      proxies: ["cloudflare", "cf-cdn-0", "cf-cdn-1", "cfcdn"],
+      proxies: ["cloudflare", "cf-cdn-0", "cf-cdn-1", "cf-cdn-2", "cf-cdn-3", "cf-cdn-4", "cf-cdn-5", "cfcdn"],
       url: "http://www.gstatic.com/generate_204",
       interval: 7200,
     }
