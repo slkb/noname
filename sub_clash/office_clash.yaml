@@ -4,6 +4,7 @@ bind-address: "*"
 mode: rule
 log-level: info
 external-controller: ":9090"
+secret: '112233'
 
 dns:
   enable: true
@@ -23,7 +24,7 @@ dns:
 proxies: 
   - name: jchc_0
     type: vless
-    server: 104.19.96.133
+    server: 104.18.192.128
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -37,7 +38,7 @@ proxies:
 
   - name: jchc_1
     type: vless
-    server: 104.19.1.75
+    server: 198.41.201.222
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -51,7 +52,7 @@ proxies:
 
   - name: jchc_2
     type: vless
-    server: 104.18.240.67
+    server: 104.16.167.161
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -65,7 +66,7 @@ proxies:
 
   - name: jchc_3
     type: vless
-    server: 104.16.109.54
+    server: 104.19.120.152
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -79,7 +80,7 @@ proxies:
 
   - name: jchc_4
     type: vless
-    server: 104.17.126.193
+    server: 104.18.160.217
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -93,7 +94,7 @@ proxies:
 
   - name: jchc_5
     type: vless
-    server: 104.16.249.254
+    server: 198.41.218.188
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -107,7 +108,7 @@ proxies:
 
   - name: jchc_6
     type: vless
-    server: 104.19.166.237
+    server: 104.18.148.32
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -121,7 +122,7 @@ proxies:
 
   - name: jchc_7
     type: vless
-    server: 104.19.16.35
+    server: 162.159.62.60
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -135,7 +136,7 @@ proxies:
 
   - name: jchc_8
     type: vless
-    server: 104.18.81.205
+    server: 104.16.173.234
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -149,7 +150,7 @@ proxies:
 
   - name: jchc_9
     type: vless
-    server: 104.16.228.63
+    server: 104.19.22.100
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -264,15 +265,13 @@ proxy-groups:
       - 504
 
   - name: ChatGPT
-    type: fallback
+    type: select
     proxies:
       - 美国|05|奈飞ChatGPT1
       - 美国|05奈飞ChatGPT0
       - 美国|03|奈飞ChatGPT3
       - 美国|03奈飞ChatGPT0
       - 台湾|01奈飞ChatGPT
-    url: http://www.gstatic.com/generate_204
-    interval: 7200  
 
 rules:
   - "IP-CIDR,10.0.0.0/24,利民村,no-resolve"
