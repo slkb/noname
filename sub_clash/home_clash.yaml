@@ -25,7 +25,7 @@ dns:
 proxies: 
   - name: china_mobile_0
     type: vless
-    server: 162.159.129.230
+    server: 104.31.5.177
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -39,7 +39,7 @@ proxies:
 
   - name: china_mobile_1
     type: vless
-    server: 162.159.128.197
+    server: 162.159.187.50
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -53,7 +53,7 @@ proxies:
 
   - name: china_mobile_2
     type: vless
-    server: 162.159.152.198
+    server: 104.18.88.199
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -67,7 +67,7 @@ proxies:
 
   - name: china_mobile_3
     type: vless
-    server: 104.16.3.193
+    server: 162.159.102.187
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -81,7 +81,7 @@ proxies:
 
   - name: china_mobile_4
     type: vless
-    server: 104.17.226.17
+    server: 104.16.160.163
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -95,7 +95,7 @@ proxies:
 
   - name: china_mobile_5
     type: vless
-    server: 104.18.64.3
+    server: 104.18.146.127
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -109,7 +109,7 @@ proxies:
 
   - name: china_mobile_6
     type: vless
-    server: 172.65.218.221
+    server: 104.27.10.239
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -123,7 +123,7 @@ proxies:
 
   - name: china_mobile_7
     type: vless
-    server: 104.19.213.173
+    server: 173.245.51.37
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -137,7 +137,7 @@ proxies:
 
   - name: china_mobile_8
     type: vless
-    server: 104.22.15.123
+    server: 104.27.13.90
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -151,7 +151,7 @@ proxies:
 
   - name: china_mobile_9
     type: vless
-    server: 162.159.56.149
+    server: 104.16.159.207
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
