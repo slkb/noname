@@ -24,7 +24,7 @@ dns:
 proxies: 
   - name: jchc_0
     type: vless
-    server: 104.18.192.128
+    server: 104.19.156.138
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -38,7 +38,7 @@ proxies:
 
   - name: jchc_1
     type: vless
-    server: 198.41.201.222
+    server: 104.19.181.47
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -52,7 +52,7 @@ proxies:
 
   - name: jchc_2
     type: vless
-    server: 104.16.167.161
+    server: 104.18.137.92
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -66,7 +66,7 @@ proxies:
 
   - name: jchc_3
     type: vless
-    server: 104.19.120.152
+    server: 104.16.177.80
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -80,7 +80,7 @@ proxies:
 
   - name: jchc_4
     type: vless
-    server: 104.18.160.217
+    server: 104.18.233.245
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -94,7 +94,7 @@ proxies:
 
   - name: jchc_5
     type: vless
-    server: 198.41.218.188
+    server: 104.17.179.42
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -108,7 +108,7 @@ proxies:
 
   - name: jchc_6
     type: vless
-    server: 104.18.148.32
+    server: 104.16.47.184
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -122,7 +122,7 @@ proxies:
 
   - name: jchc_7
     type: vless
-    server: 162.159.62.60
+    server: 104.17.74.42
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -136,7 +136,7 @@ proxies:
 
   - name: jchc_8
     type: vless
-    server: 104.16.173.234
+    server: 104.16.171.28
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -150,7 +150,7 @@ proxies:
 
   - name: jchc_9
     type: vless
-    server: 104.19.22.100
+    server: 104.19.112.94
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
