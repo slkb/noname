@@ -24,7 +24,7 @@ dns:
 proxies: 
   - name: jchc_0
     type: vless
-    server: 104.18.192.128
+    server: 104.19.12.125
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -38,7 +38,7 @@ proxies:
 
   - name: jchc_1
     type: vless
-    server: 198.41.201.222
+    server: 104.16.204.145
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -52,7 +52,7 @@ proxies:
 
   - name: jchc_2
     type: vless
-    server: 104.16.167.161
+    server: 104.16.169.196
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -66,7 +66,7 @@ proxies:
 
   - name: jchc_3
     type: vless
-    server: 104.19.120.152
+    server: 104.17.236.48
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -80,7 +80,7 @@ proxies:
 
   - name: jchc_4
     type: vless
-    server: 104.18.160.217
+    server: 198.41.209.43
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -94,7 +94,7 @@ proxies:
 
   - name: jchc_5
     type: vless
-    server: 198.41.218.188
+    server: 104.16.211.15
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -108,7 +108,7 @@ proxies:
 
   - name: jchc_6
     type: vless
-    server: 104.18.148.32
+    server: 104.19.210.8
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -122,7 +122,7 @@ proxies:
 
   - name: jchc_7
     type: vless
-    server: 162.159.62.60
+    server: 104.17.48.247
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -136,7 +136,7 @@ proxies:
 
   - name: jchc_8
     type: vless
-    server: 104.16.173.234
+    server: 104.16.150.45
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -150,7 +150,147 @@ proxies:
 
   - name: jchc_9
     type: vless
-    server: 104.19.22.100
+    server: 104.17.57.210
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_10
+    type: vless
+    server: 104.19.38.229
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_11
+    type: vless
+    server: 104.16.252.63
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_12
+    type: vless
+    server: 104.16.199.6
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_13
+    type: vless
+    server: 104.19.41.168
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_14
+    type: vless
+    server: 104.17.24.14
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_15
+    type: vless
+    server: 104.18.78.196
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_16
+    type: vless
+    server: 104.17.74.253
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_17
+    type: vless
+    server: 162.159.202.106
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_18
+    type: vless
+    server: 104.16.223.106
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: jchc_19
+    type: vless
+    server: 104.17.128.57
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -210,6 +350,7 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
+      - DIRECT
       - 故障转移 
       - jchc_0 
       - jchc_1 
@@ -220,7 +361,17 @@ proxy-groups:
       - jchc_6 
       - jchc_7 
       - jchc_8 
-      - jchc_9  
+      - jchc_9 
+      - jchc_10 
+      - jchc_11 
+      - jchc_12 
+      - jchc_13 
+      - jchc_14 
+      - jchc_15 
+      - jchc_16 
+      - jchc_17 
+      - jchc_18 
+      - jchc_19  
 
   - name: 自动选择
     type: url-test
@@ -235,6 +386,16 @@ proxy-groups:
       - jchc_7 
       - jchc_8 
       - jchc_9 
+      - jchc_10 
+      - jchc_11 
+      - jchc_12 
+      - jchc_13 
+      - jchc_14 
+      - jchc_15 
+      - jchc_16 
+      - jchc_17 
+      - jchc_18 
+      - jchc_19 
     url: "http://www.gstatic.com/generate_204"
     interval: 86400
     
@@ -251,6 +412,16 @@ proxy-groups:
       - jchc_7 
       - jchc_8 
       - jchc_9 
+      - jchc_10 
+      - jchc_11 
+      - jchc_12 
+      - jchc_13 
+      - jchc_14 
+      - jchc_15 
+      - jchc_16 
+      - jchc_17 
+      - jchc_18 
+      - jchc_19 
     url: "http://www.gstatic.com/generate_204"
     interval: 7200
 
