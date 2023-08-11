@@ -26,7 +26,7 @@ proxies:
   - name: china_mobile_0
     type: vless
     server: 172.67.207.109
-    port: 80
+    port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
     servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
