@@ -25,7 +25,7 @@ dns:
 proxies: 
   - name: china_mobile_0
     type: vless
-    server: 130.61.225.173
+    server: 104.25.60.63
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -39,7 +39,7 @@ proxies:
 
   - name: china_mobile_1
     type: vless
-    server: 130.162.38.1
+    server: 104.28.200.7
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -53,7 +53,7 @@ proxies:
 
   - name: china_mobile_2
     type: vless
-    server: 8.209.109.15
+    server: 172.67.49.174
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -67,7 +67,7 @@ proxies:
 
   - name: china_mobile_3
     type: vless
-    server: 130.61.212.206
+    server: 172.67.165.93
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -81,7 +81,7 @@ proxies:
 
   - name: china_mobile_4
     type: vless
-    server: 8.222.244.123
+    server: 104.24.168.172
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -95,7 +95,7 @@ proxies:
 
   - name: china_mobile_5
     type: vless
-    server: 130.61.169.214
+    server: 104.29.233.41
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -109,7 +109,7 @@ proxies:
 
   - name: china_mobile_6
     type: vless
-    server: 130.61.222.120
+    server: 104.24.128.237
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -123,7 +123,7 @@ proxies:
 
   - name: china_mobile_7
     type: vless
-    server: 130.61.170.25
+    server: 104.31.20.133
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -137,7 +137,7 @@ proxies:
 
   - name: china_mobile_8
     type: vless
-    server: 8.209.107.39
+    server: 162.159.37.143
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -151,7 +151,7 @@ proxies:
 
   - name: china_mobile_9
     type: vless
-    server: 144.24.80.97
+    server: 172.64.138.144
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -165,7 +165,7 @@ proxies:
 
   - name: china_mobile_10
     type: vless
-    server: 132.145.23.112
+    server: 104.25.172.45
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -179,7 +179,7 @@ proxies:
 
   - name: china_mobile_11
     type: vless
-    server: 130.162.224.82
+    server: 104.26.59.30
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -193,7 +193,7 @@ proxies:
 
   - name: china_mobile_12
     type: vless
-    server: 130.162.177.248
+    server: 172.64.139.77
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -207,7 +207,7 @@ proxies:
 
   - name: china_mobile_13
     type: vless
-    server: 8.209.64.123
+    server: 172.64.141.0
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -221,7 +221,7 @@ proxies:
 
   - name: china_mobile_14
     type: vless
-    server: 130.162.236.146
+    server: 104.23.114.224
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -235,7 +235,7 @@ proxies:
 
   - name: china_mobile_15
     type: vless
-    server: 8.209.77.1
+    server: 104.25.135.83
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -249,7 +249,7 @@ proxies:
 
   - name: china_mobile_16
     type: vless
-    server: 132.145.44.85
+    server: 172.64.140.197
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -263,7 +263,7 @@ proxies:
 
   - name: china_mobile_17
     type: vless
-    server: 130.162.217.178
+    server: 104.16.153.97
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -277,7 +277,7 @@ proxies:
 
   - name: china_mobile_18
     type: vless
-    server: 130.162.240.122
+    server: 104.31.235.173
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -291,7 +291,7 @@ proxies:
 
   - name: china_mobile_19
     type: vless
-    server: 138.2.176.248
+    server: 104.29.234.31
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -305,7 +305,7 @@ proxies:
 
   - name: china_mobile_20
     type: vless
-    server: 132.145.21.22
+    server: 104.23.109.143
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -319,7 +319,7 @@ proxies:
 
   - name: china_mobile_21
     type: vless
-    server: 8.222.198.105
+    server: 172.67.228.187
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -333,7 +333,7 @@ proxies:
 
   - name: china_mobile_22
     type: vless
-    server: 8.209.74.233
+    server: 104.28.202.241
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -347,7 +347,7 @@ proxies:
 
   - name: china_mobile_23
     type: vless
-    server: 8.209.105.36
+    server: 104.23.113.24
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -361,7 +361,7 @@ proxies:
 
   - name: china_mobile_24
     type: vless
-    server: 141.144.233.235
+    server: 104.23.240.173
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -375,7 +375,7 @@ proxies:
 
   - name: china_mobile_25
     type: vless
-    server: 8.209.116.250
+    server: 104.27.130.193
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -389,7 +389,7 @@ proxies:
 
   - name: china_mobile_26
     type: vless
-    server: 138.2.8.3
+    server: 172.66.134.114
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -403,7 +403,7 @@ proxies:
 
   - name: china_mobile_27
     type: vless
-    server: 8.209.99.26
+    server: 104.27.137.88
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -417,7 +417,7 @@ proxies:
 
   - name: china_mobile_28
     type: vless
-    server: 8.219.140.63
+    server: 104.27.136.5
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -431,7 +431,7 @@ proxies:
 
   - name: china_mobile_29
     type: vless
-    server: 43.132.205.28
+    server: 172.67.227.115
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
