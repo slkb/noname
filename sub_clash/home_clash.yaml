@@ -25,7 +25,7 @@ dns:
 proxies: 
   - name: china_mobile_0
     type: vless
-    server: 104.25.60.63
+    server: 104.22.52.207
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -39,7 +39,7 @@ proxies:
 
   - name: china_mobile_1
     type: vless
-    server: 104.28.200.7
+    server: 104.22.53.112
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -53,7 +53,7 @@ proxies:
 
   - name: china_mobile_2
     type: vless
-    server: 172.67.49.174
+    server: 104.27.14.133
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -67,7 +67,7 @@ proxies:
 
   - name: china_mobile_3
     type: vless
-    server: 172.67.165.93
+    server: 172.66.130.37
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -81,7 +81,7 @@ proxies:
 
   - name: china_mobile_4
     type: vless
-    server: 104.24.168.172
+    server: 104.30.97.82
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -95,7 +95,7 @@ proxies:
 
   - name: china_mobile_5
     type: vless
-    server: 104.29.233.41
+    server: 190.93.242.156
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -109,7 +109,7 @@ proxies:
 
   - name: china_mobile_6
     type: vless
-    server: 104.24.128.237
+    server: 104.30.51.228
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -123,7 +123,7 @@ proxies:
 
   - name: china_mobile_7
     type: vless
-    server: 104.31.20.133
+    server: 104.26.97.249
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -137,7 +137,7 @@ proxies:
 
   - name: china_mobile_8
     type: vless
-    server: 162.159.37.143
+    server: 172.67.223.55
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -151,7 +151,7 @@ proxies:
 
   - name: china_mobile_9
     type: vless
-    server: 172.64.138.144
+    server: 104.31.118.122
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -165,7 +165,7 @@ proxies:
 
   - name: china_mobile_10
     type: vless
-    server: 104.25.172.45
+    server: 104.30.48.191
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -179,7 +179,7 @@ proxies:
 
   - name: china_mobile_11
     type: vless
-    server: 104.26.59.30
+    server: 172.67.155.190
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -193,7 +193,7 @@ proxies:
 
   - name: china_mobile_12
     type: vless
-    server: 172.64.139.77
+    server: 172.67.224.81
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -207,7 +207,7 @@ proxies:
 
   - name: china_mobile_13
     type: vless
-    server: 172.64.141.0
+    server: 172.65.170.187
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -221,7 +221,7 @@ proxies:
 
   - name: china_mobile_14
     type: vless
-    server: 104.23.114.224
+    server: 104.30.98.150
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -235,7 +235,7 @@ proxies:
 
   - name: china_mobile_15
     type: vless
-    server: 104.25.135.83
+    server: 172.67.226.162
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -249,7 +249,7 @@ proxies:
 
   - name: china_mobile_16
     type: vless
-    server: 172.64.140.197
+    server: 172.66.132.131
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -263,7 +263,7 @@ proxies:
 
   - name: china_mobile_17
     type: vless
-    server: 104.16.153.97
+    server: 172.66.80.89
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -277,7 +277,7 @@ proxies:
 
   - name: china_mobile_18
     type: vless
-    server: 104.31.235.173
+    server: 162.159.116.34
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -291,7 +291,7 @@ proxies:
 
   - name: china_mobile_19
     type: vless
-    server: 104.29.234.31
+    server: 104.29.224.23
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -305,7 +305,7 @@ proxies:
 
   - name: china_mobile_20
     type: vless
-    server: 104.23.109.143
+    server: 104.28.118.247
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -319,7 +319,7 @@ proxies:
 
   - name: china_mobile_21
     type: vless
-    server: 172.67.228.187
+    server: 104.22.54.245
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -333,7 +333,7 @@ proxies:
 
   - name: china_mobile_22
     type: vless
-    server: 104.28.202.241
+    server: 104.28.119.241
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -347,7 +347,7 @@ proxies:
 
   - name: china_mobile_23
     type: vless
-    server: 104.23.113.24
+    server: 172.64.197.247
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -361,7 +361,7 @@ proxies:
 
   - name: china_mobile_24
     type: vless
-    server: 104.23.240.173
+    server: 104.23.193.207
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -375,7 +375,7 @@ proxies:
 
   - name: china_mobile_25
     type: vless
-    server: 104.27.130.193
+    server: 162.159.114.89
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -389,7 +389,7 @@ proxies:
 
   - name: china_mobile_26
     type: vless
-    server: 172.66.134.114
+    server: 104.26.172.20
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -403,7 +403,7 @@ proxies:
 
   - name: china_mobile_27
     type: vless
-    server: 104.27.137.88
+    server: 104.18.165.219
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -417,7 +417,7 @@ proxies:
 
   - name: china_mobile_28
     type: vless
-    server: 104.27.136.5
+    server: 172.66.133.111
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -431,7 +431,287 @@ proxies:
 
   - name: china_mobile_29
     type: vless
-    server: 172.67.227.115
+    server: 104.30.49.56
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_30
+    type: vless
+    server: 104.29.225.31
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_31
+    type: vless
+    server: 104.23.197.56
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_32
+    type: vless
+    server: 172.65.221.127
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_33
+    type: vless
+    server: 104.18.103.168
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_34
+    type: vless
+    server: 104.25.19.61
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_35
+    type: vless
+    server: 198.41.143.2
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_36
+    type: vless
+    server: 104.20.241.0
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_37
+    type: vless
+    server: 104.22.55.170
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_38
+    type: vless
+    server: 104.28.158.75
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_39
+    type: vless
+    server: 172.64.93.222
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_40
+    type: vless
+    server: 104.18.99.79
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_41
+    type: vless
+    server: 172.64.198.248
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_42
+    type: vless
+    server: 104.21.50.134
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_43
+    type: vless
+    server: 104.27.15.60
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_44
+    type: vless
+    server: 172.66.28.111
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_45
+    type: vless
+    server: 172.66.27.17
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_46
+    type: vless
+    server: 104.18.137.3
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_47
+    type: vless
+    server: 104.25.92.183
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_48
+    type: vless
+    server: 104.23.156.108
+    port: 2052
+    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
+    tls: false
+    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
+    client-fingerprint: randomized
+
+  - name: china_mobile_49
+    type: vless
+    server: 172.66.131.175
     port: 2052
     uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
     tls: false
@@ -479,7 +759,27 @@ proxy-groups:
       - china_mobile_26 
       - china_mobile_27 
       - china_mobile_28 
-      - china_mobile_29  
+      - china_mobile_29 
+      - china_mobile_30 
+      - china_mobile_31 
+      - china_mobile_32 
+      - china_mobile_33 
+      - china_mobile_34 
+      - china_mobile_35 
+      - china_mobile_36 
+      - china_mobile_37 
+      - china_mobile_38 
+      - china_mobile_39 
+      - china_mobile_40 
+      - china_mobile_41 
+      - china_mobile_42 
+      - china_mobile_43 
+      - china_mobile_44 
+      - china_mobile_45 
+      - china_mobile_46 
+      - china_mobile_47 
+      - china_mobile_48 
+      - china_mobile_49  
 
   - name: 自动选择
     type: url-test
@@ -514,6 +814,26 @@ proxy-groups:
       - china_mobile_27 
       - china_mobile_28 
       - china_mobile_29 
+      - china_mobile_30 
+      - china_mobile_31 
+      - china_mobile_32 
+      - china_mobile_33 
+      - china_mobile_34 
+      - china_mobile_35 
+      - china_mobile_36 
+      - china_mobile_37 
+      - china_mobile_38 
+      - china_mobile_39 
+      - china_mobile_40 
+      - china_mobile_41 
+      - china_mobile_42 
+      - china_mobile_43 
+      - china_mobile_44 
+      - china_mobile_45 
+      - china_mobile_46 
+      - china_mobile_47 
+      - china_mobile_48 
+      - china_mobile_49 
     url: "http://www.gstatic.com/generate_204"
     interval: 86400
     
@@ -550,6 +870,26 @@ proxy-groups:
       - china_mobile_27 
       - china_mobile_28 
       - china_mobile_29 
+      - china_mobile_30 
+      - china_mobile_31 
+      - china_mobile_32 
+      - china_mobile_33 
+      - china_mobile_34 
+      - china_mobile_35 
+      - china_mobile_36 
+      - china_mobile_37 
+      - china_mobile_38 
+      - china_mobile_39 
+      - china_mobile_40 
+      - china_mobile_41 
+      - china_mobile_42 
+      - china_mobile_43 
+      - china_mobile_44 
+      - china_mobile_45 
+      - china_mobile_46 
+      - china_mobile_47 
+      - china_mobile_48 
+      - china_mobile_49 
     url: "http://www.gstatic.com/generate_204"
     interval: 7200
     
