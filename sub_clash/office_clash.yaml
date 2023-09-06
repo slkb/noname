@@ -76,6 +76,19 @@ proxies:
   - {"name":"美国|05|奈飞ChatGPT1","type":"trojan","server":"2gzdx1.233235.xyz","port":18841,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国|03奈飞ChatGPT0","type":"trojan","server":"2gzdx4.170203.xyz","port":52900,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国|05奈飞ChatGPT4","type":"trojan","server":"2gzdx0.170203.xyz","port":34253,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {
+      "name": "504",
+      "type": "vmess",
+      "server": "124.70.40.219",
+      "port": 60087,
+      "cipher": "auto",
+      "uuid": "fab5f095-188e-420a-b711-95d8f11750b8",
+      "alterId": 0,
+      "tls": false,
+      "skip-cert-verify": true,
+      "servername": "",
+      "network": "tcp",
+    }
 
 proxy-groups:
   - name: 出国
@@ -193,63 +206,58 @@ proxy-groups:
   - name: 故障转移
     type: fallback
     proxies: 
-      - jchc_0 
-      - jchc_1 
-      - jchc_2 
-      - jchc_3 
-      - jchc_4 
-      - jchc_5 
-      - jchc_6 
-      - jchc_7 
-      - jchc_8 
-      - jchc_9 
-      - jchc_10 
-      - jchc_11 
-      - jchc_12 
-      - jchc_13 
-      - jchc_14 
-      - jchc_15 
-      - jchc_16 
-      - jchc_17 
-      - jchc_18 
-      - jchc_19 
-      - jchc_20 
-      - jchc_21 
-      - jchc_22 
-      - jchc_23 
-      - jchc_24 
-      - jchc_25 
-      - jchc_26 
-      - jchc_27 
-      - jchc_28 
-      - jchc_29 
-      - jchc_30 
-      - jchc_31 
-      - jchc_32 
-      - jchc_33 
-      - jchc_34 
-      - jchc_35 
-      - jchc_36 
-      - jchc_37 
-      - jchc_38 
-      - jchc_39 
-      - jchc_40 
-      - jchc_41 
-      - jchc_42 
-      - jchc_43 
-      - jchc_44 
-      - jchc_45 
-      - jchc_46 
-      - jchc_47 
-      - jchc_48 
-      - jchc_49 
+      - jchc-20
+      - jchc-22
+      - jchc-44
+      - jchc-17
+      - jchc-14
+      - jchc-0
+      - jchc-49
+      - jchc-6
+      - jchc-24
+      - jchc-1
+      - jchc-26
+      - jchc-23
+      - jchc-27
+      - jchc-16
+      - jchc-33
+      - jchc-19
+      - jchc-4
+      - jchc-31
+      - jchc-48
+      - jchc-46
+      - jchc-12
+      - jchc-39
+      - jchc-18
+      - jchc-41
+      - jchc-42
+      - jchc-13
+      - jchc-7
+      - jchc-5
+      - jchc-45
+      - jchc-32
+      - jchc-37
+      - jchc-40
+      - jchc-29
+      - jchc-35
+      - jchc-3
+      - jchc-28
+      - jchc-2
+      - jchc-15
+      - jchc-9
+      - jchc-43
+      - jchc-8
+      - jchc-34
+      - jchc-36
+      - jchc-25
+      - jchc-47
+      - jchc-10
+      - jchc-30
+      - jchc-11
+      - jchc-38
+      - jchc-21
     url: "http://www.gstatic.com/generate_204"
     interval: 7200
-
-  - name: 高速云
-    type: select
-    proxies:
-      - 11
 
   - name: 利民村
     type: select
@@ -266,7 +274,7 @@ proxy-groups:
 
 rules:
   - "IP-CIDR,10.0.0.0/24,利民村,no-resolve"
-  - "IP-CIDR,10.234.0.0/16,高速云,no-resolve"
+  # - "IP-CIDR,10.234.0.0/16,高速云,no-resolve"
   - "DOMAIN-KEYWORD,douyin,DIRECT"
   - "DOMAIN-KEYWORD,toutiao,DIRECT"
   - "DOMAIN-KEYWORD,docker,出国"
