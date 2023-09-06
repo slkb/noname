@@ -22,380 +22,171 @@ dns:
   fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
   
 proxies: 
-  - name: jchc_0
-    type: vless
-    server: 104.19.12.125
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
+  - {"name":"jchc-20","type":"vless","server":"104.19.47.177","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-22","type":"vless","server":"104.19.13.210","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-44","type":"vless","server":"172.64.108.16","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-17","type":"vless","server":"104.19.31.209","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-14","type":"vless","server":"104.19.217.74","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-0","type":"vless","server":"104.18.215.214","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-49","type":"vless","server":"162.159.134.185","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-6","type":"vless","server":"104.18.233.111","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-24","type":"vless","server":"104.19.189.172","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-1","type":"vless","server":"104.19.115.94","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-26","type":"vless","server":"104.19.48.151","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-23","type":"vless","server":"104.19.169.193","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-27","type":"vless","server":"104.19.107.66","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-16","type":"vless","server":"104.19.27.98","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-33","type":"vless","server":"104.19.239.201","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-19","type":"vless","server":"104.19.183.236","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-4","type":"vless","server":"104.19.42.253","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-31","type":"vless","server":"162.159.137.12","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-48","type":"vless","server":"172.64.163.39","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-46","type":"vless","server":"172.64.169.204","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-12","type":"vless","server":"104.19.78.185","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-39","type":"vless","server":"104.19.110.109","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-18","type":"vless","server":"104.19.5.235","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-41","type":"vless","server":"172.64.205.176","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-42","type":"vless","server":"172.64.199.252","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-13","type":"vless","server":"104.19.111.43","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-7","type":"vless","server":"104.19.146.18","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-5","type":"vless","server":"104.19.218.125","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-45","type":"vless","server":"104.19.188.138","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-32","type":"vless","server":"104.19.50.45","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-37","type":"vless","server":"104.19.159.87","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-40","type":"vless","server":"104.18.214.85","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-29","type":"vless","server":"162.159.196.183","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-35","type":"vless","server":"104.19.114.52","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-3","type":"vless","server":"104.18.228.62","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-28","type":"vless","server":"104.19.12.152","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-2","type":"vless","server":"104.18.235.102","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-15","type":"vless","server":"104.18.232.197","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-9","type":"vless","server":"104.19.17.43","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-43","type":"vless","server":"172.64.137.199","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-8","type":"vless","server":"104.18.255.221","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-34","type":"vless","server":"104.18.246.102","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-36","type":"vless","server":"162.159.133.30","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-25","type":"vless","server":"104.19.232.200","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-47","type":"vless","server":"104.19.8.94","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-10","type":"vless","server":"104.19.207.39","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-30","type":"vless","server":"104.19.106.65","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-11","type":"vless","server":"104.18.234.217","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-38","type":"vless","server":"104.19.160.173","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"jchc-21","type":"vless","server":"104.19.237.42","port":2052,"uuid":"04ce1b0c-d154-4b24-85d7-e788c8f83bb7","tls":false,"servername":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hellomerry.ssc0nl-9iial87gr4mbw.workers.dev"}},"client-fingerprint":"randomized"}
+  - {"name":"美国|03|奈飞ChatGPT5","type":"trojan","server":"2gzdx1.233235.xyz","port":45216,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国|05|奈飞ChatGPT1","type":"trojan","server":"2gzdx1.233235.xyz","port":18841,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国|03奈飞ChatGPT0","type":"trojan","server":"2gzdx4.170203.xyz","port":52900,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国|05奈飞ChatGPT4","type":"trojan","server":"2gzdx0.170203.xyz","port":34253,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
 
-  - name: jchc_1
-    type: vless
-    server: 104.16.204.145
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_2
-    type: vless
-    server: 104.16.169.196
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_3
-    type: vless
-    server: 104.17.236.48
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_4
-    type: vless
-    server: 198.41.209.43
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_5
-    type: vless
-    server: 104.16.211.15
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_6
-    type: vless
-    server: 104.19.210.8
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_7
-    type: vless
-    server: 104.17.48.247
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_8
-    type: vless
-    server: 104.16.150.45
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_9
-    type: vless
-    server: 104.17.57.210
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_10
-    type: vless
-    server: 104.19.38.229
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_11
-    type: vless
-    server: 104.16.252.63
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_12
-    type: vless
-    server: 104.16.199.6
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_13
-    type: vless
-    server: 104.19.41.168
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_14
-    type: vless
-    server: 104.17.24.14
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_15
-    type: vless
-    server: 104.18.78.196
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_16
-    type: vless
-    server: 104.17.74.253
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_17
-    type: vless
-    server: 162.159.202.106
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_18
-    type: vless
-    server: 104.16.223.106
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-  - name: jchc_19
-    type: vless
-    server: 104.17.128.57
-    port: 2052
-    uuid: 04ce1b0c-d154-4b24-85d7-e788c8f83bb7
-    tls: false
-    servername: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: hellomerry.ssc0nl-9iial87gr4mbw.workers.dev
-    client-fingerprint: randomized
-
-
-  - {
-      "name": "11",
-      "type": "vmess",
-      "server": "192.168.111.146",
-      "port": 10086,
-      "cipher": "auto",
-      "uuid": "fab5f095-188e-420a-b711-95d8f11750b8",
-      "alterId": 0,
-      "tls": false,
-      "skip-cert-verify": true,
-      "servername": "",
-      "network": "tcp",
-    }
-  - name: cloudflare
-    type: wireguard
-    server: 162.159.192.120
-    port: 1018
-    ip: 172.16.0.2
-    private-key: "AAUnYTS10NLVDhPtStukiZd1lGpl1/gOBdvhbfSQJEE="
-    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
-    mtu: 1280
-    udp: true
-  - {
-      "name": "504",
-      "type": "vmess",
-      "server": "124.70.40.219",
-      "port": 60087,
-      "cipher": "auto",
-      "uuid": "fab5f095-188e-420a-b711-95d8f11750b8",
-      "alterId": 0,
-      "tls": false,
-      "skip-cert-verify": true,
-      "servername": "",
-      "network": "tcp",
-    }
-
-  - {"name":"美国|05|奈飞ChatGPT1","type":"trojan","server":"gzdx1.170203.xyz","port":49795,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|05奈飞ChatGPT0","type":"trojan","server":"gzdx0.156786.xyz","port":39702,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax05.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03|奈飞ChatGPT3","type":"trojan","server":"gzdx3.170203.xyz","port":52938,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国|03奈飞ChatGPT0","type":"trojan","server":"gzdx0.156786.xyz","port":14515,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"usmax03.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾|01奈飞ChatGPT","type":"trojan","server":"gzdx2.170203.xyz","port":34234,"udp":true,"password":"d387d477-18fb-4101-9b22-7515fafd7ff1","sni":"gzdx2.170203.xyz","skip-cert-verify":true,"network":"tcp"}
-  
 proxy-groups:
   - name: 出国
     type: select
     proxies:
       - 自动选择
-      - DIRECT
       - 故障转移 
-      - jchc_0 
-      - jchc_1 
-      - jchc_2 
-      - jchc_3 
-      - jchc_4 
-      - jchc_5 
-      - jchc_6 
-      - jchc_7 
-      - jchc_8 
-      - jchc_9 
-      - jchc_10 
-      - jchc_11 
-      - jchc_12 
-      - jchc_13 
-      - jchc_14 
-      - jchc_15 
-      - jchc_16 
-      - jchc_17 
-      - jchc_18 
-      - jchc_19  
+      - jchc-20
+      - jchc-22
+      - jchc-44
+      - jchc-17
+      - jchc-14
+      - jchc-0
+      - jchc-49
+      - jchc-6
+      - jchc-24
+      - jchc-1
+      - jchc-26
+      - jchc-23
+      - jchc-27
+      - jchc-16
+      - jchc-33
+      - jchc-19
+      - jchc-4
+      - jchc-31
+      - jchc-48
+      - jchc-46
+      - jchc-12
+      - jchc-39
+      - jchc-18
+      - jchc-41
+      - jchc-42
+      - jchc-13
+      - jchc-7
+      - jchc-5
+      - jchc-45
+      - jchc-32
+      - jchc-37
+      - jchc-40
+      - jchc-29
+      - jchc-35
+      - jchc-3
+      - jchc-28
+      - jchc-2
+      - jchc-15
+      - jchc-9
+      - jchc-43
+      - jchc-8
+      - jchc-34
+      - jchc-36
+      - jchc-25
+      - jchc-47
+      - jchc-10
+      - jchc-30
+      - jchc-11
+      - jchc-38
+      - jchc-21  
 
   - name: 自动选择
     type: url-test
     proxies: 
-      - jchc_0 
-      - jchc_1 
-      - jchc_2 
-      - jchc_3 
-      - jchc_4 
-      - jchc_5 
-      - jchc_6 
-      - jchc_7 
-      - jchc_8 
-      - jchc_9 
-      - jchc_10 
-      - jchc_11 
-      - jchc_12 
-      - jchc_13 
-      - jchc_14 
-      - jchc_15 
-      - jchc_16 
-      - jchc_17 
-      - jchc_18 
-      - jchc_19 
+      - jchc-20
+      - jchc-22
+      - jchc-44
+      - jchc-17
+      - jchc-14
+      - jchc-0
+      - jchc-49
+      - jchc-6
+      - jchc-24
+      - jchc-1
+      - jchc-26
+      - jchc-23
+      - jchc-27
+      - jchc-16
+      - jchc-33
+      - jchc-19
+      - jchc-4
+      - jchc-31
+      - jchc-48
+      - jchc-46
+      - jchc-12
+      - jchc-39
+      - jchc-18
+      - jchc-41
+      - jchc-42
+      - jchc-13
+      - jchc-7
+      - jchc-5
+      - jchc-45
+      - jchc-32
+      - jchc-37
+      - jchc-40
+      - jchc-29
+      - jchc-35
+      - jchc-3
+      - jchc-28
+      - jchc-2
+      - jchc-15
+      - jchc-9
+      - jchc-43
+      - jchc-8
+      - jchc-34
+      - jchc-36
+      - jchc-25
+      - jchc-47
+      - jchc-10
+      - jchc-30
+      - jchc-11
+      - jchc-38
+      - jchc-21
     url: "http://www.gstatic.com/generate_204"
     interval: 86400
     
@@ -422,6 +213,36 @@ proxy-groups:
       - jchc_17 
       - jchc_18 
       - jchc_19 
+      - jchc_20 
+      - jchc_21 
+      - jchc_22 
+      - jchc_23 
+      - jchc_24 
+      - jchc_25 
+      - jchc_26 
+      - jchc_27 
+      - jchc_28 
+      - jchc_29 
+      - jchc_30 
+      - jchc_31 
+      - jchc_32 
+      - jchc_33 
+      - jchc_34 
+      - jchc_35 
+      - jchc_36 
+      - jchc_37 
+      - jchc_38 
+      - jchc_39 
+      - jchc_40 
+      - jchc_41 
+      - jchc_42 
+      - jchc_43 
+      - jchc_44 
+      - jchc_45 
+      - jchc_46 
+      - jchc_47 
+      - jchc_48 
+      - jchc_49 
     url: "http://www.gstatic.com/generate_204"
     interval: 7200
 
@@ -438,11 +259,10 @@ proxy-groups:
   - name: ChatGPT
     type: select
     proxies:
+      - 美国|03|奈飞ChatGPT5
       - 美国|05|奈飞ChatGPT1
-      - 美国|05奈飞ChatGPT0
-      - 美国|03|奈飞ChatGPT3
       - 美国|03奈飞ChatGPT0
-      - 台湾|01奈飞ChatGPT
+      - 美国|05奈飞ChatGPT4
 
 rules:
   - "IP-CIDR,10.0.0.0/24,利民村,no-resolve"
